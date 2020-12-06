@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResultHightlightComponent } from './result-hightlight.component';
+import { WelcomeWidgetComponent } from './welcome-widget.component';
 
-describe('ResultHightlightComponent', () => {
-  let component: ResultHightlightComponent;
-  let fixture: ComponentFixture<ResultHightlightComponent>;
+describe('WelcomeWidgetComponent', () => {
+  let component: WelcomeWidgetComponent;
+  let fixture: ComponentFixture<WelcomeWidgetComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ResultHightlightComponent ]
+      declarations: [ WelcomeWidgetComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ResultHightlightComponent);
+    fixture = TestBed.createComponent(WelcomeWidgetComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
